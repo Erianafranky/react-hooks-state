@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function Counter() {
+  //set setter function and reference to current value of state
   const [count, setCount] = useState(0);
 
   function increment() {
